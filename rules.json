@@ -1,0 +1,148 @@
+{
+  "rules": [
+    {
+      "id": "R-01",
+      "if": {"AND": [{"season": "лето"}, {"interest_beach": "да"}]},
+      "then": {"country": "Турция"},
+      "priority": 5
+    },
+    {
+      "id": "R-02",
+      "if": {"AND": [{"season": "весна"}, {"interest_culture": "да"}, {"interest_nature": "да"}]},
+      "then": {"country": "Китай"},
+      "priority": 5
+    },
+    {
+      "id": "R-03",
+      "if": {"AND": [{"season": "весна"}, {"interest_exotic": "да"}]},
+      "then": {"country": "Вьетнам"},
+      "priority": 5
+    },
+    {
+      "id": "R-04",
+      "if": {"AND": [{"season": "весна"}, {"interest_beach": "да"}]},
+      "then": {"country": "Египет"},
+      "priority": 4
+    },
+    {
+      "id": "R-05",
+      "if": {"AND": [{"season": "зима"}, {"interest_beach": "да"}]},
+      "then": {"country": "Таиланд"},
+      "priority": 5
+    },
+    {
+      "id": "R-06",
+      "if": {"AND": [{"season": "осень"}, {"interest_beach": "да"}]},
+      "then": {"country": "Египет"},
+      "priority": 4
+    },
+    {
+      "id": "R-07",
+      "if": {"AND": [{"interest_culture": "да"}, {"interest_nature": "да"}, {"season": "осень"}]},
+      "then": {"country": "Китай"},
+      "priority": 4
+    },
+    {
+      "id": "R-08",
+      "if": {"AND": [{"interest_exotic": "да"}, {"interest_beach": "да"}]},
+      "then": {"country": "Вьетнам"},
+      "priority": 4
+    },
+    {
+      "id": "R-09",
+      "if": {"AND": [{"interest_beach": "да"}, {"visa_free": "да"}, {"direct_flight": "да"}]},
+      "then": {"country": "Турция"},
+      "priority": 3
+    },
+    {
+      "id": "R-10",
+      "if": {"AND": [{"budget": "низкий"}, {"interest_beach": "да"}]},
+      "then": {"country": "Египет"},
+      "priority": 3
+    },
+    {
+      "id": "R-11",
+      "if": {"AND": [{"budget": "высокий"}, {"interest_culture": "да"}]},
+      "then": {"country": "Китай"},
+      "priority": 3
+    },
+    {
+      "id": "R-12",
+      "if": {"AND": [{"duration": "3–5"}, {"interest_beach": "да"}]},
+      "then": {"country": "Египет"},
+      "priority": 3
+    },
+    {
+      "id": "R-13",
+      "if": {"AND": [{"duration": "11–14"}, {"interest_culture": "да"}]},
+      "then": {"country": "Китай"},
+      "priority": 3
+    },
+    {
+      "id": "R-14",
+      "if": {"AND": [{"duration": "7–10"}, {"interest_exotic": "да"}]},
+      "then": {"country": "Вьетнам"},
+      "priority": 3
+    },
+    {
+      "id": "R-15",
+      "if": {"AND": [{"season": "зима"}, {"interest_culture": "да"}]},
+      "then": {"country": "Таиланд"},
+      "priority": 3
+    },
+    {
+      "id": "R-16",
+      "if": {"AND": [{"season": "лето"}, {"interest_culture": "да"}]},
+      "then": {"country": "Турция"},
+      "priority": 3
+    },
+    {
+      "id": "R-17",
+      "if": {"AND": [{"interest_nature": "да"}, {"visa_free": "нет"}]},
+      "then": {"country": "Китай"},
+      "priority": 2
+    },
+    {
+      "id": "R-18",
+      "if": {"AND": [{"interest_exotic": "да"}, {"budget": "средний"}]},
+      "then": {"country": "Вьетнам"},
+      "priority": 2
+    },
+    {
+      "id": "R-19",
+      "if": {"AND": [{"interest_beach": "да"}, {"OR": [{"interest_culture": "да"}, {"interest_exotic": "да"}]}]},
+      "then": {"country": "Турция"},
+      "priority": 2
+    },
+    {
+      "id": "R-20",
+      "if": {"AND": [{"season": "осень"}, {"interest_exotic": "да"}]},
+      "then": {"country": "Вьетнам"},
+      "priority": 2
+    },
+    {
+      "id": "R-21",
+      "if": {"AND": [{"direct_flight": "да"}, {"interest_beach": "да"}]},
+      "then": {"country": "Египет"},
+      "priority": 2
+    },
+    {
+      "id": "R-22",
+      "if": {"AND": [{"visa_free": "да"}, {"budget": "низкий"}]},
+      "then": {"country": "Таиланд"},
+      "priority": 2
+    },
+    {
+      "id": "R-23",
+      "if": {"AND": [{"duration": "11–14"}, {"interest_exotic": "да"}]},
+      "then": {"country": "Вьетнам"},
+      "priority": 2
+    },
+    {
+      "id": "R-24",
+      "if": {"AND": [{"season": "лето"}, {"budget": "высокий"}]},
+      "then": {"country": "Турция"},
+      "priority": 2
+    }
+  ]
+}
