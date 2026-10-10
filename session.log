@@ -1,0 +1,20 @@
+
+--- Сеанс 2026-10-10 22:17:24.895177 ---
+Факты: {"direct_flight": "да", "budget": "средний", "visa_free": "да", "season": "лето", "interest_exotic": "нет", "interest_culture": "нет", "interest_nature": "да", "interest_beach": "да", "duration": "3-5", "country": "Турция"}
+Цепочка: [{"rule": "R-01", "condition": {"AND": [{"season": "лето"}, {"interest_beach": "да"}]}, "conclusion": {"country": "Турция"}}]
+
+--- Сеанс 2026-10-10 22:58:00.232449 ---
+Факты: {"interest_culture": "да", "visa_free": "да", "budget": "средний", "interest_beach": "да", "duration": "3-5", "interest_exotic": "да", "direct_flight": "да", "season": "весна", "interest_nature": "да", "country": "Китай"}
+Цепочка: [{"rule": "R-02", "condition": {"AND": [{"season": "весна"}, {"interest_culture": "да"}, {"interest_nature": "да"}]}, "conclusion": {"country": "Китай"}}]
+
+--- Сеанс 2026-10-10 23:00:17.005146 ---
+Факты: {"season": "весна", "interest_nature": "да", "direct_flight": "да", "interest_beach": "да", "budget": "средний", "visa_free": "да", "interest_culture": "да", "duration": "3-5", "interest_exotic": "да", "country": "Китай"}
+Цепочка: [{"rule": "R-02", "condition": {"AND": [{"season": "весна"}, {"interest_culture": "да"}, {"interest_nature": "да"}]}, "conclusion": {"country": "Китай"}}]
+
+--- Сеанс 2026-10-10 23:02:30.107570 ---
+Факты: {"interest_exotic": "неизвестно", "interest_culture": "да", "visa_free": "да", "season": "зима", "interest_nature": "нет", "budget": "низкий", "duration": "3-5", "direct_flight": "неизвестно", "interest_beach": "неизвестно", "country": "Таиланд"}
+Цепочка: [{"rule": "R-15", "condition": {"AND": [{"season": "зима"}, {"interest_culture": "да"}]}, "conclusion": {"country": "Таиланд"}}]
+
+--- Сеанс 2026-10-10 23:03:08.797520 ---
+Факты: {"interest_nature": "неизвестно", "interest_beach": "неизвестно", "direct_flight": "неизвестно", "duration": "3-5", "interest_exotic": "да", "visa_free": "неизвестно", "season": "зима", "interest_culture": "неизвестно", "budget": "низкий"}
+Цепочка: []
